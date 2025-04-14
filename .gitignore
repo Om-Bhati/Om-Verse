@@ -1,0 +1,46 @@
+# --- IDE & Editor Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# --- OS & Temporary Files ---
+.DS_Store       # macOS
+Thumbs.db       # Windows
+*.log           # Log files
+*.tmp           # Temp files
+~$*             # Office temp files
+
+# --- Dependency Directories ---
+node_modules/   # Node.js
+venv/           # Python virtualenv
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Build & Compiled Files ---
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.out
+*.class        # Java
+*.jar
+
+# --- Environment Files ---
+.env            # Local environment variables
+.env.local
+secrets.ini
+config.yml      # If contains sensitive data
+
+# --- Testing & Coverage ---
+coverage/
+*.lcov
+*.test
+
+# --- Project-Specific Exclusions ---
+# Add any custom paths (e.g., generated assets)
+/dist/
+/build/
